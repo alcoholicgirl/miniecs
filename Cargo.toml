@@ -1,0 +1,10 @@
+[package]
+name = "miniecs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+slotmap = "1.0.7"
+lazy_static = "1.5.0"
+ahash = "0.8.11"
+ecs_macros = {path = "./ecs_macros"}
